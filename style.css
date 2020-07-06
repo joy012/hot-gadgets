@@ -1,0 +1,72 @@
+/* Utilities */
+section{
+    margin-bottom: 50px;
+}
+.orange-text{
+    color: #FF9D00;
+}
+.orange-text:hover{
+    text-decoration: none;
+    color: #FFD019;
+}
+#btn{
+    background-color: black;
+}
+#btn:hover{
+    background-color: #202020;
+}
+
+/* carousel */
+
+.carousel-indicators li{
+    width: 12px;
+    height: 8px;
+    border: none;
+    border-radius: 6px;
+    background-color: #CECECE;
+}
+.carousel-indicators li.active{
+    width: 40px;
+    height: 8px;
+    border: none;
+    border-radius: 6px;
+    background: linear-gradient(to right,#FF9C35,#FFD019);
+}
+.carousel-indicators{
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+}
+.carousel-item{
+    padding: 0 40px 20px;
+}
+
+/* Products */
+
+.card{
+    box-shadow: 5px 5px 10px lightgrey;
+    border-radius: 10px;
+}
+.card-footer{
+    border-top: none;
+    background-color: white;
+}
+
+/* Categories */
+
+.underline-mark{
+    width: 90px;
+    height: 8px;
+    border-radius: 16px;
+    background: linear-gradient(to right,#FF9C35,#FFD019);
+}
+
+.categories{
+    border-radius: 40px 5px 20px 5px;
+}
+
+/* subscribe */
+#subscribe{
+    height: 300px;
+    color: white;
+    
+}
